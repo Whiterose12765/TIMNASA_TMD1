@@ -17,7 +17,8 @@
     {
       "description":"Enter yes for your bot to reject calls",
       "value":"yes",
-      "required":false
+      "required":true 
+
     },
          "AUTO_BIO":
     {
@@ -29,7 +30,7 @@
     {
       "description":"Enter yes for your bot to auto react status",
       "value":"yes",
-      "required":false
+      "required":true 
     },
 	  "AUTO_SAVE_CONTACTS":
     {
@@ -41,19 +42,20 @@
     {
       "description":"Enter yes for your bot to auto react message in all chats",
       "value":"yes",
-      "required":false
+      "required":true 
     },
 	  "AUDIO_REPLY":
     {
       "description":"Enter yes for your bot to auto reply audio in all chats",
       "value":"yes",
-      "required":false
+      "required":true 
+	   
     },
 	  "AUTO_REPLY":
     {
       "description":"Enter yes for your bot to auto reply message when you are offline",
       "value":"yes",
-      "required":false
+      "required":true 
     },
     "AUTO_READ_STATUS":
     {
@@ -108,7 +110,7 @@
     "SESSION_ID":
     {
       "description":"put your session ID , the code you receive after scanning Qr code",   
-      "value":"",
+      "value":"eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoid09FMGRHbkpKVGQ0enl5aHZ3QnNtbWZGMU9OMUlaRHZIa0N5SklXWGZYND0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVXRtTWNKTHEySFB6TngrNzVnZzJUOGlUTnZrV2xrM3ZLRjB3RWxlN2tUQT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI2SFJsRU1VV2pHOHBHenBNSHlTWnE0aVJpa296QXNzSkowTWlRQWxJc2wwPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJlV1VmNTdZVWtVV3BtN1RoN2lDb2tMTTFEd3lybzFkY0pPUzRJQU9zYmk4PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkFNR1drRDBzWVlJNmdnbk5wV0FWcVIvNWlsbVZ3a3NEVkhNTGpvRzBBVVE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkhDNnhBNDFJbHRSZnc3ZXp6QmtXb3N6d2lDc24zVGF6dlBzNjZma3lNeHc9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQUpVM1cyVzlvbHBWcU1tNXZodk8ySmQ2N0srSk51dklvUlluTUMxRHRFRT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoieTZkN2dZbTJXZ2FpR2F2NnI0YkJ2VEwyRzBWTnkrcG1vd0hIN1lEZEdoMD0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkdGbys1NXIweEE1MW5Gd1ZqSnZsNThaL2pKalpBcDVWLzNkU0xMY0ZMWEhQWmRWN1loWld1WjRoUjBYa1lPK2tnSnBwc3prUnV4VHk1YWgxOFl6eUFBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjMxLCJhZHZTZWNyZXRLZXkiOiJmNWdkSzg2RHBuR2FMNG1QdXhKSkQxSy9waUJXMHEvMHI2TXBmakNUTU4wPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJxZjhGUXRjTFRwVzVGLTNya2hxT2pBIiwicGhvbmVJZCI6IjUyNjU2YTc3LWJjODctNGFmZS1iMmU1LTM1ZmJiYjAwODk5MiIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJQTEFkZElPUm9OQnArVmNvN2diOHJRNDJaYlE9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidkRNVEFhWkxjazg2TDFwRGZ3aG5LUDEyTE5BPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IlhMQTRKV1hQIiwibWUiOnsiaWQiOiI2MDExMTc1MDg1MjU6NjNAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ096TmtLZ0VFTGFIcGI0R0dBTWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6ImZBTlJxVThBVytDcWhsVWVyMm5oa0VSK0dqTzkrd2Jvb2J3ZFZuVEUwRkU9IiwiYWNjb3VudFNpZ25hdHVyZSI6ImRGaUdvVTY2VS9yR3ViUnIrYXQ0eTVsM2dTZ3RrUm1EQjR5SkxpeGxhb3ZLOVQ5TU5iNEgzRFVDdENzelc5ZjFHb096N0YxQi9oNnhJKzhzbUcwV0JBPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJDZDZFSVlTdXgvZDd0Q3FDUTJlWDMxS2hsRTEvZm5DbGxyQjl5NnZsVDY5TG1zSnRXNzgraGJNQnFseWEwbEtoTGtrVVFLS1hVWFhZdFRHUCtWOVNBdz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjYwMTExNzUwODUyNTo2M0BzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJYd0RVYWxQQUZ2Z3FvWlZIcTlwNFpCRWZob3p2ZnNHNktHOEhWWjB4TkJSIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzQxMjQzMzMwLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUx5USJ9",
       "required":true
       
     },
